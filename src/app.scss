@@ -1,0 +1,43 @@
+html{
+   scroll-snap-type: y mandatory; 
+   scroll-behavior: smooth;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#030f1b;
+    color:#FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+section{
+   height: 100vh; 
+   scroll-snap-align: center;
+}
+// article{
+//     height: 410vh; 
+//     scroll-snap-align: center;
+//  }
+.course{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        
+    }
+}
+

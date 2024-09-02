@@ -1,0 +1,50 @@
+.home{
+   height:calc(100vh - 20px);
+   overflow:hidden;
+   position: relative;
+   
+   .wrapper{
+      max-width:1366px;
+      height:100%;
+      margin:30px 100px;
+
+    .textContainer{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      
+      h1{
+         font-size: 30px;
+         color: #de9a06;
+         letter-spacing: 5px;
+         font-style: italic;
+
+      }
+
+      h2{
+         font-size: 88px;
+         font-style: italic;
+      }
+      button{
+         font-style: italic;
+         padding: 15px;
+         border: 1px solid white;
+         border-radius: 10px;
+         background-color: #de9a06;
+         cursor: pointer;
+         font-weight: 300;
+         margin-left: 50px;
+      }
+    }
+   }
+   .imageContainer{
+      height: 500px;
+      position: absolute;
+      top: 10vh;
+      right:0;
+
+   }
+}
