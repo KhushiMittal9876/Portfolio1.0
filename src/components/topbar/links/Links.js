@@ -2,7 +2,7 @@ import React from "react";
 import {motion} from 'framer-motion';
 
 function Links({setOpen}) {
-  const items = ["Homepage", "Skills", "Projects", "Contact", "About"];
+  const items = ["Homepage", "About", "Skills", "Projects", "Contact" ];
  
   return (
     <div className = "links">

@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .contact {
   height: 100%;
   max-width: 1106px;
@@ -11,35 +13,64 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-
+    
     h1{
         font-size: 100px;
     }
     span{
         font-weight: 300;
     }
+    .social{
+      display: flex;
+      flex-direction: row; 
+      flex-wrap: wrap;
+      font-weight: 200;
+      gap: 30px;
+      font-size: 25px;
+    }
   }
   .formContainer {
     flex: 1;
+    position: relative;
+
+    .phoneSvg{
+      stroke: #de9a06;
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+    }
     form{
 
         display: flex;
         flex-direction: column;
         gap: 20px;
+        width: 450px;
         
         input,textarea{
-            padding: 20px;
+            padding: 15px;
             background-color: transparent;
-            border: 1px solid gray;
-            border-radius: 5px;  
+            border: 1px solid rgb(235, 231, 231);
+            border-radius: 15px; 
+            color: white;
+            font-size: large;
+            font-weight: 600;
+            letter-spacing: 2px;
         }
 
         button{
-            padding: 20px;
+            padding: 15px;
             border: none;
             background-color: #de9a06;
             cursor: pointer;
-            font-weight: 500;
+            font-weight: 700;
+            font-size: large;
+            border-radius: 15px;
+        }
+        .error{
+          color: red;
+        }
+        .success{
+          color: green;
         }
     }
   }

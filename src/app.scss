@@ -22,10 +22,6 @@ section{
    height: 100vh; 
    scroll-snap-align: center;
 }
-// article{
-//     height: 410vh; 
-//     scroll-snap-align: center;
-//  }
 .course{
     height: 100vh;
     display: flex;
@@ -40,4 +36,18 @@ section{
         
     }
 }
-
+@mixin mobile{
+    @media (max-width: 738px) {
+       @content; 
+    }
+}
+@mixin tablet{
+    @media (max-width: 1024px) {
+       @content; 
+    }
+}
+@mixin desktop{
+    @media (max-width: 1366px) {
+       @content; 
+    }
+}

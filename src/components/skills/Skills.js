@@ -5,12 +5,16 @@ import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { TbSql } from "react-icons/tb";
+import { SiMysql } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { SiCplusplus } from "react-icons/si";
 
 const variants = {
   initial: {
-    x: -500,
+    x: -300,
     y: 100,
     opacity: 0,
   },
@@ -40,11 +44,16 @@ function Skills() {
         <div className="title">
           <h1>
             <motion.b  whileHover={{ color: "#de9a06" }}>Skills</motion.b>
+            <h3>Tech-Stacks I'm familier with</h3>
           </h1>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
-        <motion.div whileHover={{ background: "lightgray", color: "#de9a06" }} className="box">
+      <motion.div whileHover={{ color: "#de9a06" }} className="box">
+          <SiCplusplus />
+          <h3>C++</h3>
+        </motion.div>
+        <motion.div whileHover={{ color: "#de9a06" }} className="box">
           <FaHtml5 />
           <h3>HTML5</h3>
         </motion.div>
@@ -61,7 +70,7 @@ function Skills() {
           <h3>React.js</h3>
         </motion.div>
         <motion.div whileHover={{ color: "#de9a06" }} className="box">
-          <TbSql />
+          <SiMysql />
           <h3>Sql</h3>
         </motion.div>
         <motion.div whileHover={{ color: "#de9a06" }} className="box">
@@ -69,28 +78,16 @@ function Skills() {
           <h3>Github</h3>
         </motion.div>
         <motion.div whileHover={{ color: "#de9a06" }} className="box">
-          <FaGithub />
-          <h3>Github</h3>
+          <FaBootstrap />
+          <h3>Bootstrap</h3>
         </motion.div>
         <motion.div whileHover={{ color: "#de9a06" }} className="box">
-          <FaGithub />
-          <h3>Github</h3>
+          <TbBrandFramerMotion />
+          <h3>Framer Motion</h3>
         </motion.div>
         <motion.div whileHover={{ color: "#de9a06" }} className="box">
-          <FaGithub />
-          <h3>Github</h3>
-        </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
-          <FaGithub />
-          <h3>Github</h3>
-        </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
-          <FaGithub />
-          <h3>Github</h3>
-        </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
-          <FaGithub />
-          <h3>Github</h3>
+          <RiTailwindCssFill />
+          <h3>TailwindCss</h3>
         </motion.div>
       </motion.div>
     </motion.div>

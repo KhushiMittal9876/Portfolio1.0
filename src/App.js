@@ -5,17 +5,16 @@ import Topbar from './components/topbar/Topbar'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Skills from './components/skills/Skills'
-
-// import background from "./images/img.jpg";
+import About from './components/aboutMe/About'
 
 function App() {
   return (
     <div>
-      <section id="Homepage"><Topbar /><Home /></section>
+      <section id="Homepage"><Home /><Topbar /></section>
+      <section id='About'><About /></section>
       <section id='Skills'><Skills /></section>
       <article id='Projects'><Projects /></article>
-      <section id='Contact'><Contact /></section>
-      <section id='About'>About Me</section>
+      <section id='Contact'><Contact /></section>  
     </div>
   )
 }

@@ -6,7 +6,10 @@ import {motion} from "framer-motion"
 import { useState } from 'react'
 
 function Topbar() {
-  const [open,setOpen] = useState(false)
+  const [open,setOpen] = useState(false);
+  const initial= {
+    y: -1900 
+ }
   const variants = {
     open:{
       y: 0,
@@ -16,7 +19,7 @@ function Topbar() {
       
     },
     closed:{
-      y: -1600,
+      y: -1900,
       transition:{
         type:"spring",stiffness:10,
       }
@@ -25,8 +28,8 @@ function Topbar() {
 
   return (
     
-    <motion.div className="topbar" animate={open ? "open" : "closed"}>
-      <motion.div className="bg" variants={variants}>
+    <motion.div className="topbar"  animate={open ? "open" : "closed"}>
+      <motion.div className="bg" initial={initial} variants={variants}>
        <Links setOpen={setOpen}/>
       </motion.div>
       <ToggleButton setOpen={setOpen}/>
