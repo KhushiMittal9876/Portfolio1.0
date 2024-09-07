@@ -8,7 +8,9 @@
       height:100%;
       margin:20px 50px;
       @include mobile{
-         margin:80px 10px;
+        margin-top: 80px;
+        margin-left: 40px;
+        margin-right: 10px;
         }
 
     .textContainers{
@@ -70,10 +72,11 @@
    right: 40px;
    
    @include mobile{
-      height: 45%;
+      height: 60%;
       width: 100%;
-      top:unset;
-      bottom: 0;
+      top:500px;
+      // bottom: 0;
       right: 80px;
+      
      }
 }  
