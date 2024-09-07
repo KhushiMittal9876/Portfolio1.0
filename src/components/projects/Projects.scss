@@ -31,8 +31,8 @@
     overflow: hidden;
 
     @include mobile{
-      margin-top: 500px;
-      height: 90%;
+      margin-top: 100px;
+      height: 100%;
       align-items: center;
       margin-left: 40px;
       justify-content: center;
@@ -67,6 +67,10 @@
           height: 100%;
           width: 100%;
           object-fit: cover;
+
+          @include mobile{
+            display: none;
+          }
         }
         
       }
@@ -80,7 +84,7 @@
 
         @include mobile{
           transform: none !important;
-          gap:40px;
+          gap:30px;
           // justify-content: normal;
           // margin-top: 20%;
           padding: 5px;
@@ -93,7 +97,7 @@
         h2{
           font-size: 35px;
           @include mobile{
-            font-size: 55px;
+            font-size: 40px;
           }
         }
 
@@ -101,7 +105,7 @@
           color: gray;
           font-size: 20px;
           @include mobile{
-            font-size: 30px;
+            font-size: 25px;
           }
         }
 
@@ -119,7 +123,7 @@
             font-size: 30px;
             padding: 20px;
             background-color: #de9a06;
-            width: 300px;
+            width: 250px;
           }
         }
       }

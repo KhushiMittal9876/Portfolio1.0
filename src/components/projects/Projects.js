@@ -50,7 +50,7 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <a href={item.link} target="_blank" rel="noreferrer noopener">
-              <motion.button whileHover={{scale:1.2, backgroundColor:"#de9a06"}}><IoPlay />&nbsp; See  Live Demo</motion.button>
+              <motion.button whileHover={{scale:1.2, backgroundColor:"#de9a06"}}><IoPlay />&nbsp; See Demo</motion.button>
             </a>
           </motion.div>
         </div>
