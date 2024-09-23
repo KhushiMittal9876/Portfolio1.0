@@ -28,7 +28,7 @@ function About() {
     <motion.div ref={ref} className="About" variants={variants} initial="initial" animate={isInView && "animate"} whileInView="animate">
       <motion.div className="title" variants={variants}>About Me</motion.div>
       <motion.div className="textContainer">
-        <motion.div className="item" variants={variants}>
+        {/* <motion.div className="item" variants={variants}>
           Hello, I am <b>Khushi Mittal</b>, a highly skilled professional with a
           strong academic background and a passion for software development. My
           coursework in B.Tech Computer Science at <b>Chandigarh University</b>{" "}
@@ -36,7 +36,7 @@ function About() {
           DBMS, and Web Development.I have honed my skills in various
           programming languages and frameworks, including C, C++, Python,Html,
           Css,Javascript, React.js,Sql. 
-        </motion.div>
+        </motion.div> */}
         <br />
         <motion.div className="miss" variants={variants}>
           In addition to my academic pursuits, I have hands-on experience in
