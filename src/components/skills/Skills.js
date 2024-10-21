@@ -11,6 +11,8 @@ import { FaBootstrap } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { SiCplusplus } from "react-icons/si";
+import { GrWordpress } from "react-icons/gr";
+import { FaGitSquare } from "react-icons/fa";
 
 const variants = {
   initial: {
@@ -74,6 +76,10 @@ function Skills() {
           <h3>Sql</h3>
         </motion.div>
         <motion.div whileHover={{ color: "#de9a06" }} className="box">
+          <FaGitSquare />
+          <h3>Git</h3>
+        </motion.div>
+        <motion.div whileHover={{ color: "#de9a06" }} className="box">
           <FaGithub />
           <h3>Github</h3>
         </motion.div>
@@ -88,6 +94,10 @@ function Skills() {
         <motion.div whileHover={{ color: "#de9a06" }} className="box">
           <RiTailwindCssFill />
           <h3>TailwindCss</h3>
+        </motion.div>
+        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+          <GrWordpress />
+          <h3>Wordpress</h3>
         </motion.div>
       </motion.div>
     </motion.div>
