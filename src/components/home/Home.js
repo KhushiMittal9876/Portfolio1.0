@@ -22,11 +22,11 @@ function Home() {
     <div className="home">
       <div className="wrappers">
         <motion.div className="textContainers" variants={textVariants} initial="initial" animate="animate">
-          <motion.h1 variants={textVariants}>Khushi Mittal</motion.h1>
+          <motion.h1 variants={textVariants} className="beau-rivage-regular">Khushi Mittal</motion.h1>
           <motion.h2 variants={textVariants}>Web and software developer</motion.h2>
           <motion.div className="buttons" variants={textVariants}>
-            <a href="https://www.linkedin.com/in/khushi-mittall/" target="_blank" rel="noreferrer noopener"><motion.button variants={textVariants}>Hire Me</motion.button></a>
-            <a href="https://drive.google.com/file/d/1SixAQYOBLWInTcOVDXM-T3pNJeKyZ-Dq/view?usp=sharing" target="_blank" rel="noreferrer noopener"><motion.button variants={textVariants}>Resume</motion.button></a>
+          <motion.button variants={textVariants}><a href="https://www.linkedin.com/in/khushi-mittall/" target="_blank" rel="noreferrer noopener">Hire Me</a></motion.button>
+          <motion.button variants={textVariants}><a href="https://drive.google.com/file/d/1SixAQYOBLWInTcOVDXM-T3pNJeKyZ-Dq/view?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a></motion.button>
           </motion.div>
         </motion.div>
       
