@@ -38,7 +38,7 @@ function Skills() {
     <motion.div className="skills" variants={variants} initial="initial" ref={ref} animate={isInView && "animate"} whileInView="animate">
       <motion.div className="textContainer" variants={variants}>
         <p>
-          focus on helping yourself than others <br /> and move forward
+        Tech-Stacks I'm familier with
         </p>
         <hr />
       </motion.div>
@@ -46,56 +46,55 @@ function Skills() {
         <div className="title">
           <h1>
             <motion.b  whileHover={{ color: "#de9a06" }}>Skills</motion.b>
-            <h3>Tech-Stacks I'm familier with</h3>
           </h1>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
-      <motion.div whileHover={{ color: "#de9a06" }} className="box">
+      <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <SiCplusplus />
           <h3>C++</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <FaHtml5 />
           <h3>HTML5</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <IoLogoCss3 />
           <h3>CSS</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <SiJavascript />
           <h3>Javascript</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <FaReact />
           <h3>React.js</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <SiMysql />
           <h3>Sql</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <FaGitSquare />
           <h3>Git</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <FaGithub />
           <h3>Github</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <FaBootstrap />
           <h3>Bootstrap</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <TbBrandFramerMotion />
           <h3>Framer Motion</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <RiTailwindCssFill />
           <h3>TailwindCss</h3>
         </motion.div>
-        <motion.div whileHover={{ color: "#de9a06" }} className="box">
+        <motion.div whileHover={{ color: "#de9a06", scale:1.3 }} className="box">
           <GrWordpress />
           <h3>Wordpress</h3>
         </motion.div>
