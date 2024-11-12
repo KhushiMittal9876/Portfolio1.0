@@ -49,9 +49,11 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
+            <motion.button whileHover={{scale:1.2, backgroundColor:"#de9a06"}}>
             <a href={item.link} target="_blank" rel="noreferrer noopener">
-              <motion.button whileHover={{scale:1.2, backgroundColor:"#de9a06"}}><IoPlay />&nbsp; See Demo</motion.button>
+              <IoPlay />&nbsp; See Demo
             </a>
+            </motion.button>
           </motion.div>
         </div>
       </div>

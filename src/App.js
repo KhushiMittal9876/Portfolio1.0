@@ -7,9 +7,7 @@ import Contact from './components/contact/Contact'
 import Skills from './components/skills/Skills'
 import About from './components/aboutMe/About'
 
-function App() {
- 
-  
+function App() { 
   return (
     <div>
       <section id="Homepage"><Home /><Topbar /></section>
