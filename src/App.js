@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import "./app.scss"
 import Home from './components/home/Home'
 import Topbar from './components/topbar/Topbar'

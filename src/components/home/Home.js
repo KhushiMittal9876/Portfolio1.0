@@ -26,7 +26,7 @@ function Home() {
           <motion.h2 variants={textVariants}>Web and software developer</motion.h2>
           <motion.div className="buttons" variants={textVariants}>
           <motion.button variants={textVariants}><a href="https://www.linkedin.com/in/khushi-mittall/" target="_blank" rel="noreferrer noopener">Hire Me</a></motion.button>
-          <motion.button variants={textVariants}><a href="https://drive.google.com/file/d/1SixAQYOBLWInTcOVDXM-T3pNJeKyZ-Dq/view?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a></motion.button>
+          <motion.button variants={textVariants}><a href="https://drive.google.com/file/d/12grZwkK1B2iRoMSOMuz75-dLj0fpFlDx/view?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a></motion.button>
           </motion.div>
         </motion.div>
       
